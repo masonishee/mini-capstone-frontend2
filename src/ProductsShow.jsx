@@ -7,7 +7,7 @@ export function ProductsShow() {
   const params = useParams();
 
   const handleShowProducts = () => {
-    axios.get(`http://localhost:3000/products/${params.id}.json`).then((response) => {
+    axios.get(`/products/${params.id}.json`).then((response) => {
       console.log(response.data);
       setProduct(response.data);
     });
