@@ -40,6 +40,13 @@ main {
 }
 
 .cards {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px; /* Add margin to create spacing between cards */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+margin-top: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
@@ -140,5 +147,14 @@ body {
   font-size: 16px;
   color: #666;
   margin-top: 20px;
+}
+
+
+
+.allProducts{
+  text-align: center;
+    font-size: 24px;
+    margin: 0;
+  
 }
 
